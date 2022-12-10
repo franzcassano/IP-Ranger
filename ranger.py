@@ -23,8 +23,8 @@ def scan(ips):
      	in2 = ch[1]
      	in3 = ch[2]
      	gat = f'{str(in1)}.{str(in2)}.{str(in3)}.'
-     	i = -1
-     	while i <= 254:
+     	i = 0
+     	while i <= 255:
      		i += 1
      		
      		print(f'{RED}Ranging IP : {CYAN} {str(gat)}{GREEN}{str(i)}')
